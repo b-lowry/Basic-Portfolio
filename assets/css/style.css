@@ -66,12 +66,14 @@ body {
     margin-left: 285px;
     margin-bottom: 0;
     padding: 7px;
+    line-height: 1.6
 }
 
 .heading-two {
     margin-left: 25px;
     color: #4aaaa5;
     text-align: left;
+    line-height: 1.6;
 }
 
 .input-name{
@@ -79,6 +81,9 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.input-name {
+    text-align: center;
+}
 
 input,
 textarea {
@@ -90,18 +95,16 @@ textarea {
     margin-bottom: 16px;
 }
 
+/*Attempted many ways to make inputs in contact form a smaller width as well as labels aligned to left side but kept breaking the form into multiple pieces. Need to allocate classes and divs for all properties inside input and text area selectors.*/
 
-
-#submit {
-    background-color: #4aaaa5;
-    width: 75px;
-}
-
-#subject {
+.form-input-3 {
     height: 200px;
 }
 
-/*Attempted many ways to make inputs in contact form a smaller width as well as labels aligned to left side but kept breaking the form into multiple pieces. Need to allocate classes and divs for all properties inside input and text area selectors.*/
+.portfolio-work img {
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
 
 
 .hr-outside {
@@ -120,11 +123,14 @@ textarea {
     padding: 0px 30px 0px 30px;
 }
 
-.portfolio-work img {
-    padding-right: 20px;
-    padding-bottom: 20px;
+#submit {
+    background-color: #4aaaa5;
+    width: 75px;
 }
 
+#subject {
+    height: 200px;
+}
 
 #profile-pic {
     float: left;
@@ -140,11 +146,13 @@ li {
 
 p {
     font-family: Arial, Helvetica, sans-serif;
+    line-height:1.6;
     color: #777777;
 }
 
 a {
     text-decoration: none;
+    line-height: 1.6;
 }
 
 a:visited, a:active {
